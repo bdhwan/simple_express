@@ -1,4 +1,4 @@
-var port = process.env.PORT || 8080
+var port = process.env.TEST_PORT || 8888
 
 const os = require('os');
 const getId = require('docker-container-id');
